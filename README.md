@@ -98,4 +98,4 @@ Selector of the area that will be scrolled (valid css selector).
 License: you can do whatever you want with that, but i dont have any responsibility about anything :)
 
 Help or question:
-If you have any question about the plugin, or something is unclear feel free to drop me an email at qiwelmen@gmail.com.
+If you have any question about the plugin, or something is unclear feel free to drop me an email at qiwemen@gmail.com.
