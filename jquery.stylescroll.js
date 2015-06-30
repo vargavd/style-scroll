@@ -139,7 +139,7 @@
       "height": settings.cursorHeight + "px",
       "background-color": settings.cursorColor,
       "background-image": settings.cursorImage,
-      "border-radius": settings.cursorBorderRadius + "px",
+      "border-radius": settings.cursorBorderRadius + "px"
     }) + '"></div></div>');
     var barContainer = $("#" + barContainerId);
     var cursor = $("#" + cursorId);
@@ -177,10 +177,12 @@
     };
 
     cursor.mousedown(function (e) {
+      var inlineStyle;
+
       lastY = e.clientY;
       $("body").mousemove(cursorMove);
 
-      scrollingArea.addClass("noselect").attr('unselectable', 'on');
+      scrollingArea.addClass("noselect").attr("unselectable", "on");
     });
 
     $("body").mouseup(function (e) {
